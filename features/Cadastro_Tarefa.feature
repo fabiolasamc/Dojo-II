@@ -10,8 +10,8 @@ Para mais organização
 		Dado que esteja na tela de cadastro de Tarefa
 
 	Esquema do Cenario: Cadastrar Tarefa
-		Quando uma nova Tarefa "<task>" 
-		Entao o mesmo deve ser apresentado na tela "<confirmacao>"
+		Quando uma nova Tarefa <task> 
+		Entao o mesmo deve ser apresentado na tela <confirmacao>
 
 		Exemplos:
 			|	task	|confirmacao|

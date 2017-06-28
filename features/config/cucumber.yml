@@ -1,0 +1,10 @@
+# Profile que irá formatar a saída pretty
+default: --no-source --color --format pretty
+
+#Profile que irá executar funcionalidades/cenários que tenham as tags
+#daily E @important
+diario: -t @daily -t @important
+
+#Executará cenários que contenham a tag @importante OU @carrinho OU @cadastro
+# e irá formatar e gerar um report no formato HTML
+regressao: -t @important,@cart,@register -f html -o html_report.html
