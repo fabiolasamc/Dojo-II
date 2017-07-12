@@ -53,6 +53,7 @@ end
 
 Entao(/^o mesmo deve ser apresentado na tela Fabiola$/) do 
   assert_text('Fabiola')
+ 
 end
 
 Entao(/^o mesmo deve ser apresentado na tela Ygor$/) do 
